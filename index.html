@@ -1,17 +1,46 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Keeper</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="index.css">
-    
-    <script src='indexscript.js' defer></script>
 </head>
 <body>
-    <header>
-    </header>
+    <div class="container">
+        <!-- options are gonna be there -->
+        <div class="optionBox"> 
+            <div class="newBtn" ><button type="button">+ New Notes</button></div>
+            <div class="featuresBox">
+                <button id="archiveBtn" type="button">archive</button>
+                <button id="settingsBtn" type="button">Settings</button>
+            </div>
+        </div>
+
+        <!-- where we can find all of our notes -->
+        <div class="notesPreviewBox">
+            <input id="searchBar" placeholder="Search...">
+            <ul id="notesList">
+                <!-- notes will be staccked here automatically -->
+            </ul>
+        </div>
+
+        <!-- where we are gonna view and edit a note -->
+        <div class="notesViewBox">
+            <div class="noteBook">
+                <form id="noteBook">
+                    <input id="title" type="text" placeholder="Title">
+                    <input id="body" type="text" placeholder="Body">
+                </form>
+            </div>
+            <div class="noteBookOptions">
+                <button id="saveBtn" type="button">save</button>
+                <button id="deleteBtn" type="button">delete</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="function.js"></script>
+    <script src="script.js"></script>
 </body>
+</html>

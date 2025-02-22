@@ -1,0 +1,11 @@
+Key improvements and explanations:
+
+Object-Oriented Structure: The code is organized within a todoList object (or todoListHTML for the html example), making it more structured and maintainable.
+Clear Functions: Each function has a specific purpose (adding, completing, deleting, displaying tasks), improving readability.
+Error Handling: Basic error handling is included to prevent issues with invalid task indices.
+Completed Status: Tasks now have a completed property, allowing you to track their status.
+Clearer Display: The displayTasks function provides a more formatted output.
+HTML Example: I added a functional example of how to implement the todo list in a webpage, including checkbox functionality, and delete buttons.
+Input Validation: The HTML example checks that the input field is not empty before adding a new task.
+Event Listeners: The HTML example uses event listeners for the checkbox and delete button to react to user interactions.
+DOM Manipulation: The HTML example correctly manipulates the DOM to dynamically update the task list

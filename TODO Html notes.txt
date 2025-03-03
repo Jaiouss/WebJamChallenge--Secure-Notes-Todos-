@@ -1,0 +1,13 @@
+HTML Structure:
+A div with the class todo-container wraps the entire to-do list.
+An h1 heading for the title.
+An input-container div that holds the input field and the "Add Task" button.
+An ul element with the ID taskList to display the tasks.
+CSS Styling:
+Basic styling for the body, todo-container, input elements, buttons, and list items.
+Uses flexbox for layout and alignment.
+Adds subtle box shadows and border radii for visual appeal.
+Colors have been added for visual appeal.
+JavaScript Functionality:
+The JavaScript code remains the same, providing the dynamic functionality for adding, completing, and deleting tasks.
+The javascript is placed at the bottom of the body, this is best practice.
